@@ -1,5 +1,3 @@
-// // src/components/MessageInput.js
-
 import React from 'react';
 import { Paper, InputBase, IconButton } from '@mui/material';
 import { AttachFile, Mic, EmojiEmotions, Send } from '@mui/icons-material';
@@ -11,9 +9,9 @@ const InputContainer = styled(Paper)({
   padding: '10px',
   position: 'fixed',
   bottom: 0,
-  width: '740px', // Adjust width to fit within the screen
+  width: '740px', 
   boxSizing: 'border-box',
-  zIndex: 1000, // Ensure it stays above other elements
+  zIndex: 1000, 
 });
 
 const MessageInput = styled(InputBase)({
